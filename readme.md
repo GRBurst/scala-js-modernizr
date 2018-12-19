@@ -20,7 +20,11 @@ resolvers += Resolver.jcenterRepo,
 Then, add it to your SBT dependencies:
 
 ```
+// For scala 2.11
 libraryDependencies += "com.definitelyscala" %%% "scala-js-modernizr" % "1.0.2"
+
+// For scala 2.12
+libraryDependencies += "com.definitelyscala" %%% "scala-js-modernizr" % "1.1.0"
 ```
 
 Classes and traits are available in the package `com.definitelyscala.modernizr`, scaladoc is provided.
